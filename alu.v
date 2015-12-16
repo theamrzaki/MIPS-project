@@ -1,7 +1,7 @@
 module alu(
 input wire [31:0] in_1,
 input wire [31:0] in_2,
-input wire alu_control,
+input wire [4:0]alu_control,
 input wire [4:0]shamt,
 output reg zero_signal,
 output reg [31:0] out);
